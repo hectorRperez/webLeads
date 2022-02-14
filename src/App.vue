@@ -1,26 +1,42 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Navbar />
+
+  <!-- <button @click="$store.dispatch('changeLanguage', 'es')">ES</button> -->
+  <!-- <button @click="$store.dispatch('changeLanguage', 'en')">EN</button> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWord from "./components/HelloWorld.vue";
+import Navbar from "./components/NavBar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWord,
+    Navbar,
+  },
+};
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap");
+
+:root {
+  --dark-bg-primary: #1b1e28;
+  --dark-bg-secondary: #272b39;
+  --red: #ff5072;
+  --text-color: #b8becd;
+  --box-shadow: 0px 5px 9px -1px rgba(0, 0, 0, 0.79);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background: var(--dark-bg-primary);
+  height: 200vh;
 }
 </style>
