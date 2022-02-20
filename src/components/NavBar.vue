@@ -212,6 +212,7 @@ header {
     width: 100%;
     background: var(--red);
     padding: 20px;
+    z-index: 100;
 
     & a {
       margin: 10px 5px;

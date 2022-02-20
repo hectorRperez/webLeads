@@ -1,21 +1,14 @@
 <template>
-  <!-- <Navbar /> -->
   <Home />
-  <!-- <button @click="$store.dispatch('changeLanguage', 'es')">ES</button> -->
-  <!-- <button @click="$store.dispatch('changeLanguage', 'en')">EN</button> -->
 </template>
 
 <script>
-// import HelloWord from "./components/HelloWorld.vue";
-// import Navigation from "./components/Navigation.vue";
-// import Navbar from "./components/NavBar.vue";
 import Home from "./view/HomePage.vue";
 
 export default {
   name: "App",
   components: {
     Home,
-    // Navbar,
   },
 };
 </script>
