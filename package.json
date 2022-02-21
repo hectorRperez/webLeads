@@ -1,10 +1,6 @@
 {
 	"name": "webleads",
 	"version": "0.1.0",
-	"engines": {
-		"npm": ">=7.0.0",
-		"node": ">=14.0.0"
-	},
 	"private": true,
 	"scripts": {
 		"serve": "vue-cli-service serve",
