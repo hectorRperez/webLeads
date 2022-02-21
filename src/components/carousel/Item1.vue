@@ -2,11 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="column-1">
-        <small>#SomosWebLeads</small>
-        <h1>Somos una Agencia digital Creativa</h1>
+        <small> {{ $store.state.language.header.WeAre }} </small>
+        <h1>{{ $store.state.language.header.WeAreACreative }}</h1>
         <p>
-          Creamos increíbles productos digitales hechos para ti, optimizando tus
-          procesos de negocio y ahorrando recursos
+          {{ $store.state.language.header.WeCreateIncredible }}
         </p>
         <button>
           Contanos tu idea

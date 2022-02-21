@@ -2,56 +2,65 @@
   <section>
     <div class="service__info">
       <div class="service__title">
-        <h2>Nuestro servicios</h2>
+        <h2>{{ $store.state.language.ourServices.OurService }}</h2>
       </div>
       <p>
-        WebLeads te ayudamos a adaptar los procesos de negocio de tu empresa
-        para que tu puedas dedicarte a lo que realmente te importa, facilitando
-        de este modo la consecución de tus objetivos, aportando valor añadido a
-        tus clientes, y aumentando la productividad de tus recursos
+        {{ $store.state.language.ourServices.InfoOurServices }}
       </p>
     </div>
     <div class="box">
       <div class="item">
         <img src="./../assets/img/Icon.png" alt="" />
-        <h3>Solución Digital</h3>
-        <p>Adaptar los procesos de negocio de las empresas a la era digita</p>
-        <button class="btnBlue">Saber más</button>
+        <h3>{{ $store.state.language.ourServices.DigitalSolution }}</h3>
+        <p>{{ $store.state.language.ourServices.DigitalSolutionInfo }}</p>
+        <button class="btnBlue">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
       </div>
 
       <div class="item">
         <img src="./../assets/img/Icon_2.png" alt="" />
-        <h3>Diseño UI/UX</h3>
-        <p>Brindamos servicios de Diseño UI/UX, y por supuesto con</p>
-        <button class="btnRed">Saber más</button>
+        <h3>{{ $store.state.language.ourServices.UIDesign }}</h3>
+        <p>{{ $store.state.language.ourServices.UIDesignInfo }}</p>
+        <button class="btnRed">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
       </div>
 
       <div class="item">
         <img src="./../assets/img/Icon_3.png" alt="" />
-        <h3>Automatizacion de procesos de negocios</h3>
-        <p>We provide Graphic Design services, with the best designers</p>
-        <button class="btnYellow">Saber más</button>
+        <h3>{{ $store.state.language.ourServices.Automatizacion }}</h3>
+        <p>{{ $store.state.language.ourServices.AutomatizacionInfo }}</p>
+        <button class="btnYellow">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
       </div>
 
       <div class="item">
         <img src="./../assets/img/Icon_4.png" alt="" />
-        <h3>Equipo dedidca y Team augmenting</h3>
-        <p>Create a platform with the best and coolest quality from us.</p>
-        <button class="btnYellow">Saber más</button>
+        <h3>{{ $store.state.language.ourServices.DedicatedTeam }}</h3>
+        <p>{{ $store.state.language.ourServices.DedicatedTeamInfo }}</p>
+        <button class="btnYellow">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
       </div>
 
       <div class="item">
         <img src="./../assets/img/Icon_5.png" alt="" />
-        <h3>Consultoría de operaciones y procesos</h3>
-        <p>We provide Photography services, and of course with the best</p>
-        <button class="btnBlue">Saber más</button>
+        <h3>{{ $store.state.language.ourServices.Operations }}</h3>
+        <p>{{ $store.state.language.ourServices.OperationsInfo }}</p>
+        <button class="btnBlue">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
       </div>
 
       <div class="item">
         <img src="./../assets/img/Icon_6.png" alt="" />
-        <h3>Soluciones de Business Intelligence</h3>
-        <p>Create a platform with the best and coolest quality from us.</p>
-        <button class="btnRed">Saber más</button>
+        <h3>{{ $store.state.language.ourServices.BusinessIntelligence }}</h3>
+        <p>{{ $store.state.language.ourServices.BusinessIntelligenceInfo }}</p>
+        <button class="btnRed">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
       </div>
     </div>
   </section>
