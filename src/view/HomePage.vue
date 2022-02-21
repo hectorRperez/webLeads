@@ -2,6 +2,7 @@
   <!-- <Navigation /> -->
   <Navbar />
   <Carousel :slides="slides" />
+  <our-services></our-services>
 </template>
 
 <script>
@@ -9,6 +10,7 @@
 import Navbar from "../components/NavBar.vue";
 import Carousel from "../components/Carousel.vue";
 import item1 from "../components/carousel/Item1.vue";
+import OurServices from "../components/OurServices.vue";
 
 export default {
   data() {
@@ -25,6 +27,7 @@ export default {
   components: {
     Navbar,
     Carousel,
+    OurServices,
     item1,
   },
 };
