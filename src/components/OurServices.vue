@@ -19,15 +19,6 @@
       </div>
 
       <div class="item">
-        <img src="./../assets/img/Icon_2.png" alt="" />
-        <h3>{{ $store.state.language.ourServices.UIDesign }}</h3>
-        <p>{{ $store.state.language.ourServices.UIDesignInfo }}</p>
-        <button class="btnRed">
-          {{ $store.state.language.ourServices.btnKnowMore }}
-        </button>
-      </div>
-
-      <div class="item">
         <img src="./../assets/img/Icon_3.png" alt="" />
         <h3>{{ $store.state.language.ourServices.Automatizacion }}</h3>
         <p>{{ $store.state.language.ourServices.AutomatizacionInfo }}</p>
@@ -50,6 +41,15 @@
         <h3>{{ $store.state.language.ourServices.Operations }}</h3>
         <p>{{ $store.state.language.ourServices.OperationsInfo }}</p>
         <button class="btnBlue">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
+      </div>
+
+      <div class="item">
+        <img src="./../assets/img/Icon_2.png" alt="" />
+        <h3>{{ $store.state.language.ourServices.UIDesign }}</h3>
+        <p>{{ $store.state.language.ourServices.UIDesignInfo }}</p>
+        <button class="btnRed">
           {{ $store.state.language.ourServices.btnKnowMore }}
         </button>
       </div>
