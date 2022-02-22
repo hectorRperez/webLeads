@@ -62,6 +62,15 @@
           {{ $store.state.language.ourServices.btnKnowMore }}
         </button>
       </div>
+
+      <div class="item">
+        <img src="./../assets/img/Icon_7.png" alt="" />
+        <h3>{{ $store.state.language.ourServices.DigitalMarketing }}</h3>
+        <p>{{ $store.state.language.ourServices.DigitalMarketingInfo }}</p>
+        <button class="btnYellow">
+          {{ $store.state.language.ourServices.btnKnowMore }}
+        </button>
+      </div>
     </div>
   </section>
 </template>
