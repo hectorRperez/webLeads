@@ -41,7 +41,7 @@ section {
     flex-direction: column;
 
     .info {
-      width: 85%;
+      max-width: 680px;
       margin: 25px 10px;
       display: flex;
       justify-content: center;
