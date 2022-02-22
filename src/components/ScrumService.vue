@@ -1,15 +1,14 @@
 <template>
   <section>
-    <h2>How we work</h2>
+    <h2>{{ $store.state.language.HowWework.title }}</h2>
     <div class="container">
-      <div class="ilustracion">
-        <img src="./../assets/img/ilustracion_2.png" alt="" />
-      </div>
       <div class="info">
         <p>
           {{ $store.state.language.HowWework.element1 }}
-          <br />
-          <br />
+        </p>
+      </div>
+      <div class="info">
+        <p>
           {{ $store.state.language.HowWework.element2 }}
         </p>
       </div>
@@ -23,6 +22,8 @@ export default {};
 
 <style lang="scss" scoped>
 section {
+  margin-top: 10rem;
+
   h2 {
     text-align: center;
     font-size: 40px;
@@ -37,23 +38,16 @@ section {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-
-    .ilustracion {
-      flex: 1 1 280px;
-
-      img {
-        width: 100%;
-      }
-    }
+    flex-direction: column;
 
     .info {
-      flex: 1 1 280px;
-
+      width: 85%;
+      margin: 25px 10px;
       display: flex;
       justify-content: center;
       align-items: center;
       p {
-        text-align: justify;
+        text-align: center;
         width: 80%;
         background: rgba(255, 255, 255, 0.37);
         border-radius: 16px;

@@ -36,7 +36,8 @@
 	},
 
 	"HowWework": {
-		"element1": "We apply Scrum as a working framework. It is an agile work methodology that aims to deliver value on the product in short periods of time and it is based on three pillars: transparency, inspection and adaptation.",
-		"element2": "Our creative process is based on the Design Thinking methodology, we want to understand you and provide solutions to the real problems of your users. It is an iterative and non-linear process, in which we will generate a large number of innovative ideas to address complex challenges that involve a real optimization of your procedures and resources."
+		"title": "How we work",
+		"element1": "We apply Scrum as a work framework. It is a work methodology agile that aims to deliver value on the product in periods short periods of time and for this it is based on three pillars: transparency,inspection and adaptation.",
+		"element2": "Our creative process is based on the Design Thinking methodology, we want understand you and solve the real problems of your users. It is an iterative process   and non-linear, in which we will generate a large number of innovative ideas to address the complex challenges of real optimization of your procedures and resources. "
 	}
 }

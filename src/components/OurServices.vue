@@ -70,7 +70,7 @@
 export default {};
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @mixin buttonServiceBlue() {
   margin-top: 20px;
   background-color: transparent;
