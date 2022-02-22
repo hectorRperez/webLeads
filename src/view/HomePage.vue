@@ -1,13 +1,16 @@
 <template>
   <!-- <Navigation /> -->
+
+  <img class="gradient-1" src="../assets/img/Gradient01.svg" alt="" />
   <Navbar />
   <Carousel :slides="slides" />
   <our-services></our-services>
+  <img class="gradient-2" src="../assets/img/Gradient02.svg" alt="" />
+
   <scrum-service></scrum-service>
 </template>
 
 <script>
-// import Navigation from "../components/Navigation.vue";
 import Navbar from "../components/NavBar.vue";
 import Carousel from "../components/Carousel.vue";
 import item1 from "../components/carousel/Item1.vue";
@@ -36,5 +39,20 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.gradient-1 {
+  width: 650px;
+  height: 1200px;
+  position: absolute;
+  z-index: -100;
+  left: 0;
+}
+
+.gradient-2 {
+  width: 650px;
+  height: 1200px;
+  position: absolute;
+  z-index: -100;
+  right: 0;
+}
 </style>
