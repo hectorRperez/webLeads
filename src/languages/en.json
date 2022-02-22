@@ -13,19 +13,26 @@
 	"ourServices": {
 		"OurService": "Our services",
 		"InfoOurServices": "At WebLeads we help you to adapt your company's business processes so that you can focus on what really matters to you, thus facilitating the achievement of your goals, providing added value to your customers, and increasing the productivity of your resources.",
+
 		"DigitalSolution": "Tailor-made digital solutions",
 		"DigitalSolutionInfo": "Adapt the business processes of companies to the digital age",
+
 		"UIDesign": "UX/UI designs for web & mobile",
 		"UIDesignInfo": "We provide UI/UX Design services, and of course with",
+
 		"Automatizacion": "Business process automation",
 		"AutomatizacionInfo": "We provide Graphic Design services, with the best designers",
+
 		"DedicatedTeam": "Dedicated teams and Team augmenting",
 		"DedicatedTeamInfo": "Create a platform with the best and coolest quality from us.",
+
 		"Operations": "Operations and process consulting",
 		"OperationsInfo": "We provide Photography services, and of course with the best",
+
 		"BusinessIntelligence": "Business Intelligence Solutions",
 		"BusinessIntelligenceInfo": "Create a platform with the best and coolest quality from us.",
-		"btnKnowMore": "Know more"
+
+		"btnKnowMore": "Learn more"
 	},
 
 	"HowWework": {

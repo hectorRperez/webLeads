@@ -13,18 +13,25 @@
 	"ourServices": {
 		"OurService": "Nuestro servicios",
 		"InfoOurServices": "En WebLeads te ayudamos a adaptar los procesos de negocio de tu empresa para que tu puedas dedicarte a lo que realmente te importa, facilitando de este modo la consecución de tus objetivos, aportando valor añadido a tus clientes, y aumentando la productividad de tus recursos.",
-		"DigitalSolution": "Solución Digital",
+
+		"DigitalSolution": "Soluciones digitales a medida",
 		"DigitalSolutionInfo": "Adaptar los procesos de negocio de las empresas a la era digita",
-		"UIDesign": "Diseño UI/UX",
+
+		"UIDesign": "Diseños UX/UI para web y móvil",
 		"UIDesignInfo": "Brindamos servicios de Diseño UI/UX, y por supuesto con",
-		"Automatizacion": "Automatizacion de procesos de negocios",
+
+		"Automatizacion": "Automatización de procesos de negocio",
 		"AutomatizacionInfo": "Brindamos servicios de Diseño Gráfico, con los mejores diseñadores",
-		"DedicatedTeam": "Equipo dedicado y aumento de equipo",
+
+		"DedicatedTeam": "Equipos dedicados y Team augmenting",
 		"DedicatedTeamInfo": "Cree una plataforma con la mejor y más fresca calidad de nuestra parte.",
-		"Operations": "Consultoría de operaciones y procesos.",
+
+		"Operations": "Consultoría de operaciones y procesos",
 		"OperationsInfo": "Brindamos servicios de Fotografía, y por supuesto con los mejores",
-		"BusinessIntelligence": "Soluciones de inteligencia empresarial",
+
+		"BusinessIntelligence": "Soluciones de Business Intelligence",
 		"BusinessIntelligenceInfo": "Cree una plataforma con la mejor y más fresca calidad de nuestra parte.",
+
 		"btnKnowMore": "Saber más"
 	},
 
