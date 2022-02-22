@@ -3,6 +3,7 @@
   <Navbar />
   <Carousel :slides="slides" />
   <our-services></our-services>
+  <scrum-service></scrum-service>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import Navbar from "../components/NavBar.vue";
 import Carousel from "../components/Carousel.vue";
 import item1 from "../components/carousel/Item1.vue";
 import OurServices from "../components/OurServices.vue";
+import ScrumService from "../components/ScrumService.vue";
 
 export default {
   data() {
@@ -29,6 +31,7 @@ export default {
     Carousel,
     OurServices,
     item1,
+    ScrumService,
   },
 };
 </script>
