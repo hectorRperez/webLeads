@@ -7,6 +7,7 @@
   <our-services></our-services>
   <img class="gradient-2" src="../assets/img/Gradient02.svg" alt="" />
 
+  <who-trust-us></who-trust-us>
   <scrum-service></scrum-service>
 </template>
 
@@ -16,6 +17,7 @@ import Carousel from "../components/Carousel.vue";
 import item1 from "../components/carousel/Item1.vue";
 import OurServices from "../components/OurServices.vue";
 import ScrumService from "../components/ScrumService.vue";
+import whoTrustUs from "@/components/whoTrustUs.vue";
 
 export default {
   data() {
@@ -35,6 +37,7 @@ export default {
     OurServices,
     item1,
     ScrumService,
+    whoTrustUs,
   },
 };
 </script>

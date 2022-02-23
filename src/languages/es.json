@@ -42,5 +42,10 @@
 		"title": "Como trabajamos",
 		"element1": "Aplicamos Scrum como framework de trabajo. Se trata de una metodología de trabajo ágil que tiene como finalidad la entrega de valor sobre el producto en períodos cortos de tiempo y para ello se basa en tres pilares: la transparencia, la inspección y la adaptación.",
 		"element2": "Nuestro proceso creativo está basado en la metodología Design Thinking, queremos entenderte y dar solución a los problemas reales de tus usuarios. Es un proceso iterativo y no lineal, en el que generaremos una gran cantidad de ideas innovadoras para abordar los retos complejos que suponen una optimización real de tus procedimientos y recursos."
+	},
+
+	"customers": {
+		"customerTitle": "Clientes que confian en nosotros",
+		"customerInfo": "Con más de 100 proyectos completados desde el año 2016 estos son algunos de los clientes que trabajan con nosotros.."
 	}
 }
