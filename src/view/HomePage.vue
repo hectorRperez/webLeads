@@ -41,10 +41,10 @@ export default {
 
 <style scoped>
 .gradient-1 {
-  width: 650px;
+  max-width: 650px;
   height: 1200px;
   position: absolute;
-  z-index: -100;
+  z-index: -1000;
   left: 0;
 }
 
