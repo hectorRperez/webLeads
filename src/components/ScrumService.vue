@@ -22,7 +22,7 @@ export default {};
 
 <style lang="scss" scoped>
 section {
-  margin-top: 10rem;
+  margin-top: 5rem;
 
   h2 {
     text-align: center;

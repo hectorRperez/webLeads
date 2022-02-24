@@ -9,6 +9,7 @@
 
   <who-trust-us></who-trust-us>
   <scrum-service></scrum-service>
+  <img class="gradient-3" src="../assets/img/Gradient03.svg" alt="" />
 
   <stack></stack>
 </template>
@@ -61,5 +62,13 @@ export default {
   position: absolute;
   z-index: -100;
   right: 0;
+}
+
+.gradient-3 {
+  width: 650px;
+  height: 1200px;
+  position: absolute;
+  z-index: -100;
+  left: 0;
 }
 </style>
