@@ -47,5 +47,10 @@
 	"customers": {
 		"customerTitle": "Clientes que confian en nosotros",
 		"customerInfo": "Con más de 100 proyectos completados desde el año 2016 estos son algunos de los clientes que trabajan con nosotros.."
+	},
+
+	"stack": {
+		"stackTitle": "Stack tecnologico",
+		"stackInfo": "Nuestro equipo de desarrollo está especializado en el uso de tecnologías modernas, seguras, robustas y con gran rendimiento en todo tipo de proyectos de cualquier tamaño y objetivo."
 	}
 }

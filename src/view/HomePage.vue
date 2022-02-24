@@ -9,6 +9,8 @@
 
   <who-trust-us></who-trust-us>
   <scrum-service></scrum-service>
+
+  <stack></stack>
 </template>
 
 <script>
@@ -18,6 +20,7 @@ import item1 from "../components/carousel/Item1.vue";
 import OurServices from "../components/OurServices.vue";
 import ScrumService from "../components/ScrumService.vue";
 import whoTrustUs from "@/components/whoTrustUs.vue";
+import Stack from "@/components/Stack.vue";
 
 export default {
   data() {
@@ -38,6 +41,7 @@ export default {
     item1,
     ScrumService,
     whoTrustUs,
+    Stack,
   },
 };
 </script>

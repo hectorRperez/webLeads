@@ -47,5 +47,10 @@
 	"customers": {
 		"customerTitle": "Clients who trust us ",
 		"customerInfo": "With more than 100 projects completed since 2016, these are some of the clients who work with us. "
+	},
+
+	"stack": {
+		"stackTitle": "Technological stack",
+		"stackInfo": "Our development team is specialized in the use of modern technologies, safe, robust and with great performance in all types of projects of any size and objective ."
 	}
 }
