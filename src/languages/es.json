@@ -52,5 +52,29 @@
 	"stack": {
 		"stackTitle": "Stack tecnologico",
 		"stackInfo": "Nuestro equipo de desarrollo está especializado en el uso de tecnologías modernas, seguras, robustas y con gran rendimiento en todo tipo de proyectos de cualquier tamaño y objetivo."
+	},
+
+	"footer": {
+		"column1": {
+			"weAreWebleads": "#SomosWebleads",
+			"content": "Tenemos mas de 12 años de experiencia trabajando en equipo, para llevar tu empresa al siguiente nivel."
+		},
+		"column2": {
+			"navigation": "Navegacion",
+			"item1": "Inicio",
+			"item2": "Nosotros",
+			"item3": "Servicios",
+			"item4": "Contactos"
+		},
+		"column3": {
+			"contact": "Contactanos",
+			"item1": "info@webleads.com.ar",
+			"item2": "FRISCO, USA 10601 Clarence Dr STE 250, Frisco, Texas, 75033 (945) 424-1743",
+			"item3": "CÓRDOBA,ARGENTINA Humberto Primo 630 Córdoba Capital Córdoba, ZIP X5000 +54 (351) 811-2258",
+			"item4": "SANTIAGO, CHILE Av. Irarrázaval 3661, Of. 201 Ñuñoa, ZIP 7550000 +56 2 2247-2156"
+		},
+		"column4": {
+			"title": "Envianos un mensaje"
+		}
 	}
 }

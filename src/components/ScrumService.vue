@@ -12,6 +12,7 @@
           {{ $store.state.language.HowWework.element2 }}
         </p>
       </div>
+      <img src="@/assets/img/Cuadro.svg" alt="" />
     </div>
   </section>
 </template>
@@ -58,6 +59,11 @@ section {
         padding: 2rem;
         border-radius: 25px;
       }
+    }
+
+    img {
+      margin-top: 5rem;
+      width: 850px;
     }
   }
 }

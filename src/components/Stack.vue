@@ -26,6 +26,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 10rem;
 
   .container {
     margin-top: 5rem;

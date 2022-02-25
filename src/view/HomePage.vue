@@ -10,8 +10,8 @@
   <who-trust-us></who-trust-us>
   <scrum-service></scrum-service>
   <img class="gradient-3" src="../assets/img/Gradient03.svg" alt="" />
-
   <stack></stack>
+  <Footer />
 </template>
 
 <script>
@@ -22,6 +22,7 @@ import OurServices from "../components/OurServices.vue";
 import ScrumService from "../components/ScrumService.vue";
 import whoTrustUs from "@/components/whoTrustUs.vue";
 import Stack from "@/components/Stack.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   data() {
@@ -43,6 +44,7 @@ export default {
     ScrumService,
     whoTrustUs,
     Stack,
+    Footer,
   },
 };
 </script>
@@ -66,9 +68,8 @@ export default {
 
 .gradient-3 {
   width: 650px;
-  height: 1200px;
+  height: 800px;
   position: absolute;
   z-index: -100;
-  left: 0;
 }
 </style>
