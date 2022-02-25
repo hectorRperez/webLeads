@@ -1,7 +1,5 @@
 <template>
-  <header
-    :class="{ 'scrolled-nav animate__animated animate__fadeOutUp': scrollNav }"
-  >
+  <header :class="{ 'scrolled-nav': scrollNav }">
     <nav :class="{ activeMobile: mobile }">
       <a href="#">
         <div v-if="!mobile">
@@ -120,6 +118,7 @@ header {
   position: fixed;
   width: 100%;
   transition: 0.5s ease all;
+  z-index: 1000;
 
   &.scrolled-nav {
     transition: 0.5s ease all;
