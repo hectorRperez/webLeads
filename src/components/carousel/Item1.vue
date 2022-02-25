@@ -8,7 +8,7 @@
           {{ $store.state.language.header.WeCreateIncredible }}
         </p>
         <button>
-          Contanos tu idea
+          {{ $store.state.language.header.btnContacto }}
           <i class="bx bx-right-arrow-alt"></i>
         </button>
       </div>
@@ -24,6 +24,7 @@
   width: 100%;
   height: 100%;
   color: white;
+  position: relative;
 
   .row {
     display: flex;
@@ -60,6 +61,12 @@
         justify-content: center;
         align-items: center;
         font-size: 17px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+
+        &:hover {
+          box-shadow: 5px 5px 10px -5px #000000;
+        }
 
         & i {
           transform: rotate(-40deg);

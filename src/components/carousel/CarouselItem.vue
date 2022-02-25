@@ -25,7 +25,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -100;
+  // z-index: -100;
 }
 
 .slide-in-enter-active,
