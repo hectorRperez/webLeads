@@ -55,6 +55,13 @@
 		"stackInfo": "Nuestro equipo de desarrollo está especializado en el uso de tecnologías modernas, seguras, robustas y con gran rendimiento en todo tipo de proyectos de cualquier tamaño y objetivo."
 	},
 
+	"infraestructura": {
+		"title": "Nuestra infraestructura",
+		"item1": "Oficinas centrales en Argentina",
+		"item2": "Sedes Chile, Argentina y Estados unidos",
+		"item3": "Operación remota y presencial"
+	},
+
 	"footer": {
 		"column1": {
 			"weAreWebleads": "#SomosWebleads",
@@ -76,6 +83,11 @@
 		},
 		"column4": {
 			"title": "Envianos un mensaje"
+		},
+		"column5": {
+			"item1": "© 2022 Webleads .Todos los derechos reservados",
+			"item2": "Términos & Condiciones",
+			"item3": "Politica de Privacidad"
 		}
 	}
 }

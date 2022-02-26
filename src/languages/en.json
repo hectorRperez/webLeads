@@ -56,6 +56,13 @@
 		"stackInfo": "Our development team is specialized in the use of modern technologies, safe, robust and with great performance in all types of projects of any size and objective ."
 	},
 
+	"infraestructura": {
+		"title": "Our infrastructure",
+		"item1": "Central offices in Argentina",
+		"item2": "Headquarters Chile, Argentina and USA",
+		"item3": "Remote and face-to-face operation"
+	},
+
 	"footer": {
 		"column1": {
 			"weAreWebleads": "#WeareWebleads",
@@ -77,6 +84,12 @@
 		},
 		"column4": {
 			"title": "Send us a message"
+		},
+
+		"column5": {
+			"item1": "© 2022 Webleads .All rights reserved",
+			"item2": "Terms & Conditions",
+			"item3": "Privacy Policy"
 		}
 	}
 }

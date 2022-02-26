@@ -69,12 +69,10 @@
       </div>
     </div>
     <div class="derechos">
-      <p>© 2022 Webleads .Todos los derechos reservados</p>
+      <p>{{ $store.state.language.footer.column5.item1 }}</p>
       <div class="derechos__items">
-        <a href="#">Términos & Condiciones </a>
-        <a href="#"> Politica de Privacidad </a>
-        <a href="#"> Politicas de compilance </a>
-        <a href="#"> Condiciones Particulares</a>
+        <a href="#"> {{ $store.state.language.footer.column5.item2 }} </a>
+        <a href="#"> {{ $store.state.language.footer.column5.item3 }} </a>
       </div>
     </div>
   </footer>

@@ -10,6 +10,7 @@
   <who-trust-us></who-trust-us>
   <scrum-service></scrum-service>
   <img class="gradient-3" src="../assets/img/Gradient03.svg" alt="" />
+  <infraestructura></infraestructura>
   <stack></stack>
   <Footer />
 </template>
@@ -22,6 +23,7 @@ import OurServices from "../components/OurServices.vue";
 import ScrumService from "../components/ScrumService.vue";
 import whoTrustUs from "@/components/whoTrustUs.vue";
 import Stack from "@/components/Stack.vue";
+import infraestructura from "../components/Infraestructura.vue";
 import Footer from "../components/Footer.vue";
 
 export default {
@@ -44,6 +46,7 @@ export default {
     ScrumService,
     whoTrustUs,
     Stack,
+    infraestructura,
     Footer,
   },
 };

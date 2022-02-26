@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container animate__animated animate__zoomInDown">
     <div class="row">
       <div class="column-1">
         <small> {{ $store.state.language.header.WeAre }} </small>
