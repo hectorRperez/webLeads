@@ -14,7 +14,7 @@
         <div class="nav__item" v-show="!mobile">
           <a href="#">{{ $store.state.language.HOME }}</a>
           <a href="#">{{ $store.state.language.US }}</a>
-          <a href="#"> {{ $store.state.language.SERVICE }} </a>
+          <a href="#service"> {{ $store.state.language.SERVICE }} </a>
           <a href="#">{{ $store.state.language.CONTACT }}</a>
         </div>
 

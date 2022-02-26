@@ -1,5 +1,5 @@
-<template>
-  <section>
+<template >
+  <section id="service">
     <div class="service__info">
       <div class="service__title">
         <h2>{{ $store.state.language.ourServices.OurService }}</h2>

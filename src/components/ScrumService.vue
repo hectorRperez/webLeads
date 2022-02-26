@@ -12,7 +12,12 @@
           {{ $store.state.language.HowWework.element2 }}
         </p>
       </div>
-      <img src="@/assets/img/Cuadro.svg" alt="" />
+      <div v-if="$store.state.language.HowWework.img">
+        <img src="@/assets/img/Cuadro2.svg" alt="" />
+      </div>
+      <div v-else>
+        <img src="@/assets/img/Cuadro.svg" alt="" />
+      </div>
     </div>
   </section>
 </template>

@@ -28,6 +28,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
