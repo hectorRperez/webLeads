@@ -5,13 +5,13 @@
       <div class="info">
         <p>
           {{ $store.state.language.HowWework.element1 }}
-        </p>
-      </div>
-      <div class="info">
-        <p>
+
+          <br />
+          <br />
           {{ $store.state.language.HowWework.element2 }}
         </p>
       </div>
+
       <!-- <div v-if="$store.state.language.HowWework.img">
         <img src="@/assets/img/Cuadro2.svg" alt="" />
       </div>

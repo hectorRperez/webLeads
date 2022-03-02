@@ -21,21 +21,16 @@
 
 <style lang="scss" scoped>
 .container {
-  width: 100%;
-  height: 100%;
   color: white;
-  position: relative;
 
   .row {
+    padding: 2rem;
     display: flex;
-    justify-content: center;
-    height: 100%;
 
     .column-1 {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 40%;
 
       small {
         font-size: 25px;
@@ -76,8 +71,10 @@
     }
 
     .column-2 {
-      height: 100%;
-      display: flex;
+      width: 100%;
+      img {
+        width: 100%;
+      }
     }
   }
 }

@@ -1,26 +1,5 @@
 <template>
-  <div class="carousel">
-    <div class="carousel-inner">
-      <carousel-item
-        v-for="(slide, index) in slides"
-        :slide="slide"
-        :key="`item-${index}`"
-        :current-slide="currentSlide"
-        :index="index"
-        :direction="direction"
-      >
-        <template v-slot:content>
-          <item1 />
-        </template>
-      </carousel-item>
-      <!-- <carousel-control @prev="prev" @next="next"></carousel-control> -->
-      <carousel-indicator
-        :total="3"
-        :currentIndex="currentSlide"
-        @witch="witchSlide($event)"
-      ></carousel-indicator>
-    </div>
-  </div>
+  <item1 />
 </template>
 
 <script>
