@@ -72,6 +72,7 @@
       <p>{{ $store.state.language.footer.column5.item1 }}</p>
       <div class="derechos__items">
         <a href="#"> {{ $store.state.language.footer.column5.item2 }} </a>
+        <small> | </small>
         <a href="#"> {{ $store.state.language.footer.column5.item3 }} </a>
       </div>
     </div>
@@ -181,20 +182,20 @@ export default {};
 
   .derechos {
     display: flex;
-    justify-content: space-around;
     position: relative;
     top: -35px;
     flex-wrap: wrap;
-    padding: 1rem;
+    justify-content: center;
+    gap: 5px;
 
     p {
       margin-bottom: 25px;
-      text-align: center;
     }
+    text-align: center;
 
     .derechos__items {
       display: flex;
-      gap: 25px;
+      gap: 10px;
       flex-wrap: wrap;
       justify-content: center;
 
