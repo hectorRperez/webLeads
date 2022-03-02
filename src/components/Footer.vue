@@ -12,14 +12,14 @@
         </p>
 
         <div class="social">
-          <a href="#">
+          <a href="https://www.instagram.com/webleadsok/" target="_blank">
             <i class="bx bxl-instagram"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/webleadsok/" target="_blank">
             <i class="bx bxl-facebook-circle"></i>
           </a>
-          <a href="#">
-            <i class="bx bxl-twitter"></i>
+          <a href="https://ar.linkedin.com/company/webleadsok" target="_blank">
+            <i class="bx bxl-linkedin-square"></i>
           </a>
         </div>
       </div>
