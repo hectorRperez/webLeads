@@ -3,7 +3,9 @@
     <nav :class="{ activeMobile: mobile }">
       <a href="#">
         <div v-if="!mobile">
-          <img src="../assets/img/logotipo.png" />
+          <a href="">
+            <img src="../assets/img/logotipo.png" />
+          </a>
         </div>
         <div v-else>
           <img src="../assets/img/logo_mobile.svg" style="width: 70px" />
@@ -12,9 +14,8 @@
 
       <div class="nav__items">
         <div class="nav__item" v-show="!mobile">
-          <a href="#">{{ $store.state.language.HOME }}</a>
-          <a href="#">{{ $store.state.language.US }}</a>
-          <a href="#service"> {{ $store.state.language.SERVICE }} </a>
+          <a href="#">{{ $store.state.language.AboutUs }}</a>
+          <a href="#service"> {{ $store.state.language.WhatWeDo }} </a>
           <a href="#">{{ $store.state.language.CONTACT }}</a>
         </div>
 
@@ -48,9 +49,8 @@
           :class="{ 'animate__animated animate__fadeInDown': mobileNav }"
         >
           <ul v-show="mobileNav" class="down-nav">
-            <a href="#">{{ $store.state.language.HOME }}</a>
-            <a href="#">{{ $store.state.language.US }}</a>
-            <a href="#"> {{ $store.state.language.SERVICE }} </a>
+            <a href="#">{{ $store.state.language.AboutUs }}</a>
+            <a href="#service"> {{ $store.state.language.WhatWeDo }} </a>
             <a href="#">{{ $store.state.language.CONTACT }}</a>
           </ul>
         </transition>
@@ -140,7 +140,6 @@ header {
 
     .nav__items {
       display: flex;
-      width: 385px;
       justify-content: flex-end;
       align-items: center;
       gap: 15px;
