@@ -72,7 +72,6 @@ export default {};
 
 <style lang="scss" scoped>
 @mixin buttonServiceBlue() {
-  margin-top: 20px;
   background-color: transparent;
   border-color: #2babf0;
   padding: 5px 25px;
@@ -82,7 +81,6 @@ export default {};
 }
 
 @mixin buttonServiceRed() {
-  margin-top: 20px;
   background-color: transparent;
   border-color: #ff304a;
   padding: 5px 25px;
@@ -92,7 +90,6 @@ export default {};
 }
 
 @mixin buttonServiceYellow() {
-  margin-top: 20px;
   background-color: transparent;
   border-color: #ffcc01;
   padding: 5px 25px;
@@ -136,15 +133,16 @@ section {
     .item {
       flex: 1 1 30%;
       padding: 1rem;
-      margin: 25px 10px;
+      margin: 10px 10px;
 
       h3 {
         color: white;
-        margin-bottom: 2rem;
+        min-height: 75px;
       }
 
       p {
         color: #ffffff;
+        min-height: 65px;
       }
 
       .btnBlue {
