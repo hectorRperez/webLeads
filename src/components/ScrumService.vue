@@ -12,12 +12,12 @@
         </p>
       </div>
 
-      <!-- <div v-if="$store.state.language.HowWework.img">
+      <div v-if="$store.state.language.HowWework.img">
         <img src="@/assets/img/Cuadro2.svg" alt="" />
       </div>
       <div v-else>
         <img src="@/assets/img/Cuadro.svg" alt="" />
-      </div> -->
+      </div>
     </div>
   </section>
 </template>
@@ -45,6 +45,9 @@ section {
     flex-wrap: wrap;
     text-align: center;
     flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 
     .info {
       max-width: 680px;

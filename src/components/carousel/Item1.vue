@@ -22,6 +22,7 @@
 <style lang="scss" scoped>
 .container {
   color: white;
+  padding: 3rem;
 
   .row {
     padding: 2rem;
