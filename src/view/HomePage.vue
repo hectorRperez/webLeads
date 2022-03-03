@@ -5,11 +5,11 @@
   <Navbar />
   <Carousel :slides="slides" />
   <our-services></our-services>
-  <img class="gradient-2" src="../assets/img/Gradient02.svg" alt="" />
+  <!-- <img class="gradient-2" src="../assets/img/Gradient02.svg" alt="" /> -->
 
   <who-trust-us></who-trust-us>
   <scrum-service></scrum-service>
-  <img class="gradient-3" src="../assets/img/Gradient03.svg" alt="" />
+  <!-- <img class="gradient-3" src="../assets/img/Gradient03.svg" alt="" /> -->
   <infraestructura></infraestructura>
   <stack></stack>
   <Footer />

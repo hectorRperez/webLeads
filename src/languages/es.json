@@ -1,8 +1,8 @@
 {
 	"AboutUs": "Sobre Nosotros",
-	"WhatWeDo": "¿Que hacemos?",
+	"WhatWeDo": "Que hacemos",
 	"SERVICE": "Servicio",
-	"CONTACT": "Contactos",
+	"CONTACT": "Contacto",
 
 	"header": {
 		"WeAre": "#SomosWebLeads",
@@ -76,10 +76,10 @@
 		},
 		"column3": {
 			"contact": "Contactanos",
-			"item1": "info@webleads.com.ar",
-			"item2": "FRISCO, USA 10601 Clarence Dr STE 250, Frisco, Texas, 75033 (945) 424-1743",
+			"item1": "info@webleads.ar",
+			"item2": "FRISCO USA 10601 Clarence Dr STE 250, Frisco, Texas, 75033 (945) 424-1743",
 			"item3": "CÓRDOBA,ARGENTINA Humberto Primo 630 Córdoba Capital Córdoba, ZIP X5000 +54 (351) 811-2258",
-			"item4": "SANTIAGO, CHILE Av. Irarrázaval 3661, Of. 201 Ñuñoa, ZIP 7550000 +56 2 2247-2156"
+			"item4": "SANTIAGO CHILE Av. Irarrázaval 3661, Of. 201 Ñuñoa, ZIP 7550000 +56 2 2247-2156"
 		},
 		"column4": {
 			"title": "Envianos un mensaje"

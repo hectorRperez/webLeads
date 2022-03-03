@@ -71,7 +71,7 @@ section {
 
     img {
       margin-top: 5rem;
-      width: 850px;
+      width: 80%;
     }
   }
 }
