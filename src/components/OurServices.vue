@@ -100,7 +100,7 @@ export default {};
 
 section {
   position: relative;
-  top: 120px;
+  top: 40px;
   padding: 1rem 10%;
 
   .service__info {

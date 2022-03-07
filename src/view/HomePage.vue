@@ -54,11 +54,11 @@ export default {
 
 <style scoped>
 .gradient-1 {
-  max-width: 650px;
   height: 1200px;
   position: absolute;
   z-index: -1000;
   left: 0;
+  width: 65%;
 }
 
 .gradient-2 {

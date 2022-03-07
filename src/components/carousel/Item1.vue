@@ -12,12 +12,45 @@
           <i class="bx bx-right-arrow-alt"></i>
         </button>
       </div>
-      <div class="column-2">
+      <div v-show="showMobile" class="column-2">
         <img src="../../assets/img/ilustracion_1.png" alt="" />
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showMobile: true,
+      windowWidth: null,
+    };
+  },
+
+  created() {
+    this.checkScreen();
+  },
+
+  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
+  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
+  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
+  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
+  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
+
+  methods: {
+    checkScreen() {
+      this.windowWidth = window.innerWidth;
+
+      if (this.windowWidth <= 650) {
+        console.log("estamos en tlf");
+        this.showMobile = true;
+      }
+    },
+  },
+};
+</script>
+
 
 <style lang="scss" scoped>
 .container {
