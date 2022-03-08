@@ -28,15 +28,9 @@ export default {
     };
   },
 
-  created() {
+  mounted() {
     this.checkScreen();
   },
-
-  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
-  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
-  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
-  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
-  //TODO: SEGUIR CREANDO LA CLASE PARA MEJORAR LA ADAPTABILIDAD MOVIL
 
   methods: {
     checkScreen() {
@@ -44,7 +38,7 @@ export default {
 
       if (this.windowWidth <= 650) {
         console.log("estamos en tlf");
-        this.showMobile = true;
+        this.showMobile = false;
       }
     },
   },

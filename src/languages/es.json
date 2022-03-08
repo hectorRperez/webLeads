@@ -75,11 +75,31 @@
 			"item4": "Contactos"
 		},
 		"column3": {
-			"contact": "Contactanos",
-			"item1": "info@webleads.ar",
-			"item2": "FRISCO USA 10601 Clarence Dr STE 250, Frisco, Texas, 75033 (945) 424-1743",
-			"item3": "CÓRDOBA,ARGENTINA Humberto Primo 630 Córdoba Capital Córdoba, ZIP X5000 +54 (351) 811-2258",
-			"item4": "SANTIAGO CHILE Av. Irarrázaval 3661, Of. 201 Ñuñoa, ZIP 7550000 +56 2 2247-2156"
+			"contact": "Contact",
+			"item1": "info@webleadsgroup.com",
+			"direccion_1": {
+				"item1": "FRISCO",
+				"item2": "USA",
+				"item3": "10601 Clarence Dr STE 250,",
+				"item4": "Frisco, Texas, 75033,",
+				"item5": "(945) 424-1743"
+			},
+			"direccion_2": {
+				"item1": "CÓRDOBA",
+				"item2": "ARGENTINA",
+				"item3": "Humberto Primo 630",
+				"item4": "Córdoba Capital",
+				"item5": "Córdoba, ZIP X5000",
+				"item6": "+54 (351) 811-2258"
+			},
+			"direccion_3": {
+				"item1": "SANTIAGO",
+				"item2": "CHILE",
+				"item3": "Av. Irarrázaval 3661,",
+				"item4": "Of. 201",
+				"item5": "Ñuñoa, ZIP 7550000",
+				"item6": "+56 2 2247-2156"
+			}
 		},
 		"column4": {
 			"title": "Envianos un mensaje"

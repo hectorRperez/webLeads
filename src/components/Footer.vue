@@ -40,24 +40,54 @@
         <ul>
           <li>
             <i class="bx bx-mail-send" style="color: #ff304a"></i>
-            <p>{{ $store.state.language.footer.column3.item1 }}</p>
+            <div class="box">
+              <p>{{ $store.state.language.footer.column3.item1 }}</p>
+            </div>
           </li>
           <li>
             <i class="bx bxs-map" style="color: #feca09"></i>
             <p>
-              {{ $store.state.language.footer.column3.item2 }}
+              {{ $store.state.language.footer.column3.direccion_1.item1 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_1.item2 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_1.item3 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_1.item4 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_1.item5 }}
             </p>
           </li>
           <li>
             <i class="bx bxs-map" style="color: #2babf0"></i>
             <p>
-              {{ $store.state.language.footer.column3.item3 }}
+              {{ $store.state.language.footer.column3.direccion_2.item1 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_2.item2 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_2.item3 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_2.item4 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_2.item5 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_2.item6 }}
             </p>
           </li>
           <li>
             <i class="bx bxs-map" style="color: #ff304a"></i>
             <p>
-              {{ $store.state.language.footer.column3.item4 }}
+              {{ $store.state.language.footer.column3.direccion_3.item1 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_3.item2 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_3.item3 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_3.item4 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_3.item5 }}
+              <br />
+              {{ $store.state.language.footer.column3.direccion_3.item6 }}
             </p>
           </li>
         </ul>
